@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!--for icons-->
+   <!-- Font Awesome 6 CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!--for style sheet-->
+<link rel="stylesheet" href="css/syle.css">
+<link href="https://fonts.googleapis.com/css2?family=Comme&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <!-- NAVIGATION -->
+<nav class="site-nav">
+    <div class="headerLogo">
+      <h3>House of Galotolo</h3>
+    </div>
+    <div class="nav-toggle" id="navToggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#welcome">HoG</a></li>
+      <li><a href="#what-we-offer">What We Offer</a></li>
+      <li><a href="#About-us">About Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+    
+  <section id="welcome">
+    <video autoplay muted loop playsinline class="video-bg">
+        <source src="img/loopvid.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="welcome-text">
+        <h2>Welcome to House of Galotolo</h2>
+        <p class="leading">Eruditionis flammam accendente</p>
+    </div>
+</section>
+
+<br>
+    <section id="text">
+       
+        <p class="HoG">Greetings from the House of Galotolo, 
+        a place where learning is carefully cultivated and 
+        each student is encouraged to reach their greatest 
+        potential.  We believe that education is more than 
+        merely memorising information; it is about instilling 
+        confidence, curiosity, and a genuine love of knowledge. 
+        At House of Galotolo, we strive to create an environment 
+        that feels like home—supportive, empowering, and full of 
+        chances for growth.  Whether you're here to improve your 
+        comprehension, study for examinations, or simply explore 
+        new concepts, we're here to support you every step of the 
+        way.  This is more than simply tutoring; it is the basis 
+        for your future.</p>
+        <br>
+            <a href="#About-us" class="button">About Us</a>
+    </section>
+
+<section id="what-we-offer">
+
+    <h2 class="welcome-text">What We Offer</h2>
+    <P class="HoG">Here at House of Galotolo we understand the value of education and the building blocks it provides
+        for us to grow and follow our dreams, hence we provide the neccesary guidance and tailored solutions
+        to help students better understand academics and excel brilliantly. 
+    </P>
+
+    <h3>Empowering students through tailored tutoring</h3>
+    <div class="work">    
+
+        <div class="card">    
+            
+            <div class="images">
+                <img src="img/kenny-eliason-zFSo6bnZJTw-unsplash.jpg" alt="" width="200px"> 
+            </div>
+
+        <a href=""><h3>Mathematics tutoring</h3></a>
+               
+                <p class="HFfont"><!--about the project-->
+                    Master complex mathematical concepts with personalized guidance.
+                </p>
+            
+        </div>
+
+       
+        <div class="card"> 
+
+            <div class="images">
+                <img src="img/laura-rivera-ArH3dtoDQc0-unsplash.jpg" alt="" width="200px">
+            </div>
+        
+                <a href=""><h3>Engineering Graphics & Designs tutoring</h3></a>
+               
+                <p class="HFfont"> <!--about the project-->
+                    Explore and solve the fun complexities of EGD with interactive lessons and tailored support.
+                </p>
+            
+        </div>
+    
+
+        <div class="card">
+
+            <div class="images">
+                <img src="img/national-cancer-institute-N_aihp118p8-unsplash.jpg" alt="" width="200px">
+            </div>
+            <a href=""><h3>Holiday Programmes</h3></a>      
+   
+            <p class="HFfont"><!--about the project-->
+                Keep learning fun during school breaks with our holiday workshops.
+            </p>
+            
+                        
+        </div>
+     </div>
+   
+    <!-- <h3>Our Classes include:</h3>
+    <ul>
+     <li>Mathematics (Grade 4 to 6)</li>
+     <li>Engineering Graphics & Designs  (Grade 10 to 12)</li>
+     <li>Engineering Drawing (N1 to N3)</li>
+     <li>Planting and Structural Steel Drawing (N1 to N3)</li>
+     <li>Drawing (N4)</li>
+    </ul>
+
+    <h3>School Holiday Programmes for Grade 8 & 9 include:</h3>
+    <ul>
+     <li>Electrician Work</li>
+     <li>Introduction to Engineering Graphics & Designs  (Grade 10 to 12)</li>
+    </ul>
+    -->
+   
+</section>
+
+<section id="About-us">
+
+    <h2>About Us</h2>
+    <div class="">
+        <p>
+            House of Galotolo is a specialist tutoring centre in Kuruman, Northern Cape, 
+            that focusses on assisting learners and students in achieving academic success.  
+            We provide specialised supplementary sessions in technical disciplines, with the 
+            goal of providing young minds with the necessary information and practical skills for 
+            academic and life success.  Our commitment to education creates a friendly environment in 
+            which students can develop, learn, and thrive.  Join us on our journey to academic achievement!
+        </p>
+        
+    </div>
+<br>
+
+    <a href="#contact" class="button"> Get in contact</a>
+
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+    <h3>Get in Touch</h3>
+    <div class="contact-container">
+      <form method="post" action="https://formsubmit.co/technologyjtg@gmail.com">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+  
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+  
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+  
+        <button type="submit" class="button">Send</button>
+      </form>
+  
+      <div class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14168.32028300933!2d23.465099262135144!3d-27.40443132838034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKuruman%20thuli%20madonsela!5e0!3m2!1sen!2sza!4v1744635748641!5m2!1sen!2sza" 
+        width="100%" 
+        height="350" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+  </section>
+  
+
+<footer>
+<div class="">
+    <p class="copyright">&copy;2025 House of Galotolo</p>
+    <ul class="social">
+        <li><a href="https://wa.me/27827926885" target="_blank"><i class="fa-brands fa-whatsapp fa-lg"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+    </ul>
+</div>
+
+</footer>
+
+<!-- JAVASCRIPT FOR NAV MENU -->
+<script>
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+  
+    navToggle.addEventListener('click', () => {
+      navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+    });
+  </script>
+
+</body>
+</html>
+
+
